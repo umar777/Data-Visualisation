@@ -3,6 +3,9 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 import streamlit as st
 
+import pip
+pip.main(["install", "openpyxl"])
+
 st.set_page_config(page_title="My Plot", page_icon=None, layout="wide")
 
 
