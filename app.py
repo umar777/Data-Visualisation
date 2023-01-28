@@ -18,8 +18,6 @@ grosvenor.columns = new_header #set the header row as the df header
 
 st.title("Grosvenor Road - Plot 10")
 
-st.dataframe(grosvenor)
-
 column_list = grosvenor.columns[2:] # assuming the first 2 columns are not the columns you want to plot
 
 weeks = [g for n, g in grosvenor.groupby(pd.Grouper(key='Date and Time',freq='W'))]
