@@ -30,7 +30,7 @@ for column_G in column_list_grosvenor:
         grosvenor.plot(kind='line', x='Date and Time', y=column_G, marker='.', linestyle='', ax=ax, label='Grosvenor Plot 10', color='green', x_compat=True)
 
         plt.xlabel('Date and Time of the month - July')
-        plt.ylabel(column_B')
+        plt.ylabel(column_B)
         plt.legend()
 
         ax.xaxis.set_major_formatter(mdates.DateFormatter("%m.%d.%Y"))
