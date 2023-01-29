@@ -12,6 +12,9 @@ st.set_page_config(page_title="My Plot", page_icon=None, layout="wide")
 grosvenor = pd.read_excel("grosvenor_plot10.xlsx")
 burton = pd.read_excel("burton_plot14.xlsx")
 
+burton = burton.drop('Unnamed: 0', axis=1)
+grosvenor = grosvenor.drop('Unnamed: 0', axis=1)
+
 st.title("Burton Plot 14 VS Grosvenor Road - Plot 10")
 
 column_list = grosvenor.columns[2:] # assuming the first 2 columns are not the columns you want to plot
