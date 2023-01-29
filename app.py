@@ -18,7 +18,7 @@ column_list = grosvenor.columns[2:] # assuming the first 2 columns are not the c
 
 i = 0
 
-while i < len(column_list_burton):
+while i < len(column_list):
 
     fig, ax = plt.subplots(figsize=(35, 10))
 
