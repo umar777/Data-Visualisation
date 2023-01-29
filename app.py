@@ -39,7 +39,7 @@ while i < len(column_list):
     ax.xaxis.set_major_locator(mdates.DayLocator(interval=1))
     plt.gcf().autofmt_xdate()
 
-    i = i+1
-
     st.subheader(column_list[i])
     st.pyplot(fig)
+
+    i = i+1
