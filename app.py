@@ -41,5 +41,5 @@ while i < len(column_list):
 
     i = i+1
 
-    st.subheader(column)
+    st.subheader(column_list[i])
     st.pyplot(fig)
